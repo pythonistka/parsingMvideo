@@ -1,8 +1,8 @@
 import requests
 import json
 
-# Отправляем запрос и собираем IDs товаров(listing запрос, копируем cURL(bush), на сайте
-# https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем
+# Отправляем запрос и собираем Ids товаров (с сайта м-видео listing запрос, копируем cURL(bush), на сайте
+# https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем)
 def get_data():
 
     cookies = {
@@ -129,8 +129,39 @@ def get_data():
     # сохраним ответ в Json
     with open('1_products_ids.json', 'w') as file:
         json.dump(products_ids, file, indent=4, ensure_ascii=False)
+    # print(products_ids)
 
-    print(products_ids)
+    # Отправляем запрос и собираем IDs товаров(с сайта м-видео list запрос, копируем cURL(bush), на сайте
+    # https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем с json_data и запрос
+    # вместо скопированного списка из productIds вставляем нашу переменную products_ids, в ответе получаем json
+    json_data = {
+        'productIds': products_ids,
+        'mediaTypes': [
+            'images',
+        ],
+        'category': True,
+        'status': True,
+        'brand': True,
+        'propertyTypes': [
+            'KEY',
+        ],
+        'propertiesConfig': {
+            'propertiesPortionSize': 5,
+        },
+        'multioffer': False,
+    }
+
+    # в ответе получаем json
+    response = requests.post('https://www.mvideo.ru/bff/product-details/list', cookies=cookies, headers=headers,
+                             json=json_data).json()
+
+    # сохраняем результат (здесь мы получили данные по первым 24 продуктам(планшетам)
+    with open('2_items.json', 'w') as file:
+        json.dump(response, file, indent=4, ensure_ascii=False)
+
+    # распечатаем длину списка
+    print(len(response.get('body').get('products')))
+
 
 
 
