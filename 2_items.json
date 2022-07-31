@@ -1,0 +1,1500 @@
+{
+    "success": true,
+    "messages": [],
+    "body": {
+        "products": [
+            {
+                "productId": "30059689",
+                "name": "Планшет HUAWEI MatePad T10s (2021) 4+64GB LTE Blue (AGS3K-L09)",
+                "nameTranslit": "planshet-huawei-matepad-t10s-2021-464gb-lte-blue-ags3k-l09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30059689",
+                "materialSource": "ERP",
+                "modelName": "MatePad T10s (2021) 4+64GB LTE Blue (AGS3K-L09)",
+                "rating": {
+                    "star": 5,
+                    "count": 12,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30059689b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30059689.jpg",
+                    "Pdb/30059689b.jpg",
+                    "Pdb/30059689b1.jpg",
+                    "Pdb/30059689b2.jpg",
+                    "Pdb/30059689b21.jpg",
+                    "Pdb/30059689b22.jpg",
+                    "Pdb/30059689b23.jpg",
+                    "Pdb/30059689b24.jpg",
+                    "Pdb/30059689b3.jpg",
+                    "Pdb/30059689b4.jpg",
+                    "Pdb/30059689b5.jpg",
+                    "Pdb/30059689b6.jpg",
+                    "Pdb/30059689s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.1\"/1200x1920 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "64",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30060627",
+                "name": "Планшет HUAWEI MatePad T10s (2021) 4+128GB LTE Blue (AGS3K-L09)",
+                "nameTranslit": "planshet-huawei-matepad-t10s-2021-4128gb-lte-blue-ags3k-l09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30060627",
+                "materialSource": "ERP",
+                "modelName": "MatePad T10s (2021) 4+128GB LTE Blue (AGS3K-L09)",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30060627b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30060627.jpg",
+                    "Pdb/30060627b.jpg",
+                    "Pdb/30060627b1.jpg",
+                    "Pdb/30060627b2.jpg",
+                    "Pdb/30060627b3.jpg",
+                    "Pdb/30060627b4.jpg",
+                    "Pdb/30060627b5.jpg",
+                    "Pdb/30060627b6.jpg",
+                    "Pdb/30060627b7.jpg",
+                    "Pdb/30060627b8.jpg",
+                    "Pdb/30060627s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.1\"/1200x1920 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30061567",
+                "name": "Планшет HUAWEI MatePad 10.4''(2022) 4+64GB LTE Matte Grey (BAH4-L09)",
+                "nameTranslit": "planshet-huawei-matepad-1042022-464gb-lte-matte-grey-bah4-l09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30061567",
+                "materialSource": "ERP",
+                "modelName": "MatePad 10.4'' 4+64GB LTE Matte Grey (BAH4-L09)",
+                "rating": {
+                    "star": 4.875,
+                    "count": 16,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30061567b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30061567.jpg",
+                    "Pdb/30061567b.jpg",
+                    "Pdb/30061567b1.jpg",
+                    "Pdb/30061567b2.jpg",
+                    "Pdb/30061567b21.jpg",
+                    "Pdb/30061567b22.jpg",
+                    "Pdb/30061567b23.jpg",
+                    "Pdb/30061567b24.jpg",
+                    "Pdb/30061567b3.jpg",
+                    "Pdb/30061567b4.jpg",
+                    "Pdb/30061567b5.jpg",
+                    "Pdb/30061567s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.4\"/1200x2000 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "64",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30060127",
+                "name": "Планшет HUAWEI MatePad T10s (2021) 4+128GB Wi-Fi Blue(AGS3K-W09)",
+                "nameTranslit": "planshet-huawei-matepad-t10s-2021-4128gb-wi-fi-blueags3k-w09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30060127",
+                "materialSource": "ERP",
+                "modelName": "MatePad T10s (2021) 4+128GB Wi-Fi Blue(AGS3K-W09)",
+                "rating": {
+                    "star": 4.666666666666667,
+                    "count": 3,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30060127b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30060127.jpg",
+                    "Pdb/30060127b.jpg",
+                    "Pdb/30060127b1.jpg",
+                    "Pdb/30060127b2.jpg",
+                    "Pdb/30060127b20.jpg",
+                    "Pdb/30060127b21.jpg",
+                    "Pdb/30060127b22.jpg",
+                    "Pdb/30060127b23.jpg",
+                    "Pdb/30060127b24.jpg",
+                    "Pdb/30060127b26.jpg",
+                    "Pdb/30060127b3.jpg",
+                    "Pdb/30060127b4.jpg",
+                    "Pdb/30060127b5.jpg",
+                    "Pdb/30060127b6.jpg",
+                    "Pdb/30060127s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.1\"/1200x1920 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "128",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30060126",
+                "name": "Планшет HUAWEI MatePad T10 (2021) 2+32GB Wi-Fi Blue (AGRK-W09)",
+                "nameTranslit": "planshet-huawei-matepad-t10-2021-232gb-wi-fi-blue-agrk-w09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30060126",
+                "materialSource": "ERP",
+                "modelName": "MatePad T10 (2021) 2+32GB Wi-Fi Blue (AGRK-W09)",
+                "rating": {
+                    "star": 5,
+                    "count": 3,
+                    "percent": 101
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30060126b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30060126.jpg",
+                    "Pdb/30060126b.jpg",
+                    "Pdb/30060126b1.jpg",
+                    "Pdb/30060126b2.jpg",
+                    "Pdb/30060126b20.jpg",
+                    "Pdb/30060126b21.jpg",
+                    "Pdb/30060126b22.jpg",
+                    "Pdb/30060126b23.jpg",
+                    "Pdb/30060126b24.jpg",
+                    "Pdb/30060126b26.jpg",
+                    "Pdb/30060126b3.jpg",
+                    "Pdb/30060126b4.jpg",
+                    "Pdb/30060126s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "9.7\"/800x1280 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "32",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "2",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30045769",
+                "name": "Планшет Prestigio Grace 4G (PMT4791)",
+                "nameTranslit": "planshet-prestigio-grace-4g-pmt4791",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30045769",
+                "materialSource": "ERP",
+                "modelName": "Grace 4G (PMT4791)",
+                "rating": {
+                    "star": 4.926829268292683,
+                    "count": 41,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30045769b.jpg",
+                "brandId": "977",
+                "brandName": "Prestigio",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30045769.jpg",
+                    "Pdb/30045769b.jpg",
+                    "Pdb/30045769b1.jpg",
+                    "Pdb/30045769b2.jpg",
+                    "Pdb/30045769b3.jpg",
+                    "Pdb/30045769b4.jpg",
+                    "Pdb/30045769b5.jpg",
+                    "Pdb/30045769s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.1\"/1280x800 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "16",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "2",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "1.6 ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063160",
+                "name": "Планшет realme Pad RMP2103 4 + 64 ГБ GRAY",
+                "nameTranslit": "planshet-realme-pad-rmp2103-4--64-gb-gray",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063160",
+                "materialSource": "ERP",
+                "modelName": "RMP2103 4 + 64 ГБ GRAY",
+                "rating": {
+                    "star": 4.866666666666666,
+                    "count": 15,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063160b.jpg",
+                "brandId": "4488",
+                "brandName": "realme",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063160.jpg",
+                    "Pdb/30063160b.jpg",
+                    "Pdb/30063160b1.jpg",
+                    "Pdb/30063160b2.jpg",
+                    "Pdb/30063160b3.jpg",
+                    "Pdb/30063160b4.jpg",
+                    "Pdb/30063160s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.4\"/2000x1200 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "64",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "2 ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063161",
+                "name": "Планшет realme Pad RMP2103 4 + 64 ГБ GOLDEN",
+                "nameTranslit": "planshet-realme-pad-rmp2103-4--64-gb-golden",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063161",
+                "materialSource": "ERP",
+                "modelName": "RMP2103 4 + 64 ГБ GOLDEN",
+                "rating": {
+                    "star": 4.8,
+                    "count": 5,
+                    "percent": 91
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063161b.jpg",
+                "brandId": "4488",
+                "brandName": "realme",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063161.jpg",
+                    "Pdb/30063161b.jpg",
+                    "Pdb/30063161b1.jpg",
+                    "Pdb/30063161b2.jpg",
+                    "Pdb/30063161b20.jpg",
+                    "Pdb/30063161b21.jpg",
+                    "Pdb/30063161b22.jpg",
+                    "Pdb/30063161b23.jpg",
+                    "Pdb/30063161b24.jpg",
+                    "Pdb/30063161b25.jpg",
+                    "Pdb/30063161b26.jpg",
+                    "Pdb/30063161b3.jpg",
+                    "Pdb/30063161b4.jpg",
+                    "Pdb/30063161s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.4\"/2000x1200 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "64",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "4",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "2 ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30063829",
+                "name": "Планшет TCL TAB 10L 8491X Black",
+                "nameTranslit": "planshet-tcl-tab-10l8491xblack",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30063829",
+                "materialSource": "ERP",
+                "modelName": "TAB 10L 8491X Black",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30063829b.jpg",
+                "brandId": "619",
+                "brandName": "TCL",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30063829.jpg",
+                    "Pdb/30063829b.jpg",
+                    "Pdb/30063829b1.jpg",
+                    "Pdb/30063829b2.jpg",
+                    "Pdb/30063829b3.jpg",
+                    "Pdb/30063829b4.jpg",
+                    "Pdb/30063829b5.jpg",
+                    "Pdb/30063829b6.jpg",
+                    "Pdb/30063829b7.jpg",
+                    "Pdb/30063829b8.jpg",
+                    "Pdb/30063829b9.jpg",
+                    "Pdb/30063829s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "10.1\"/1200x800 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "32",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "2",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "4",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "1.3 ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30042067",
+                "name": "Планшет TurboKids Princess Wi-Fi 16Gb",
+                "nameTranslit": "planshet-turbokids-princess-wi-fi-16gb",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30042067",
+                "materialSource": "ERP",
+                "modelName": "Princess Wi-Fi 16Gb",
+                "rating": {
+                    "star": 3.6666666666666665,
+                    "count": 15,
+                    "percent": 71
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30042067b.jpg",
+                "brandId": "2163",
+                "brandName": "TurboKids",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30042067.jpg",
+                    "Pdb/30042067b.jpg",
+                    "Pdb/30042067b1.jpg",
+                    "Pdb/30042067b2.jpg",
+                    "Pdb/30042067b20.jpg",
+                    "Pdb/30042067b21.jpg",
+                    "Pdb/30042067b22.jpg",
+                    "Pdb/30042067b23.jpg",
+                    "Pdb/30042067b24.jpg",
+                    "Pdb/30042067b25.jpg",
+                    "Pdb/30042067b26.jpg",
+                    "Pdb/30042067b27.jpg",
+                    "Pdb/30042067b28.jpg",
+                    "Pdb/30042067b29.jpg",
+                    "Pdb/30042067b3.jpg",
+                    "Pdb/30042067b4.jpg",
+                    "Pdb/30042067s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "7\"/1024x600 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "16",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "1",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "4",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "1.2 ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "30059342",
+                "name": "Планшет HUAWEI MatePad T10 (2021) 2+32GB Wi-Fi Blue (AGRK-W09)",
+                "nameTranslit": "planshet-huawei-matepad-t10-2021-232gb-wi-fi-blue-agrk-w09",
+                "productType": "DIG",
+                "usedProductType": null,
+                "materialCisNumber": "30059342",
+                "materialSource": "ERP",
+                "modelName": "MatePad T10 (2021) 2+32GB Wi-Fi Blue (AGRK-W09)",
+                "rating": {
+                    "star": 4.333333333333333,
+                    "count": 3,
+                    "percent": 81
+                },
+                "supplier": null,
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/30059342b.jpg",
+                "brandId": "1801",
+                "brandName": "HUAWEI",
+                "status": {
+                    "showCase": true,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/30059342.jpg",
+                    "Pdb/30059342b.jpg",
+                    "Pdb/30059342b1.jpg",
+                    "Pdb/30059342b2.jpg",
+                    "Pdb/30059342b21.jpg",
+                    "Pdb/30059342b22.jpg",
+                    "Pdb/30059342b23.jpg",
+                    "Pdb/30059342b24.jpg",
+                    "Pdb/30059342b26.jpg",
+                    "Pdb/30059342b3.jpg",
+                    "Pdb/30059342b4.jpg",
+                    "Pdb/30059342s.jpg"
+                ],
+                "propertiesPortion": [
+                    {
+                        "id": 617122,
+                        "name": "Экран",
+                        "value": "9.7\"/800x1280 Пикс",
+                        "nameDescription": null,
+                        "valueDescription": null,
+                        "priority": 1,
+                        "measure": null
+                    },
+                    {
+                        "id": 613463,
+                        "name": "Встроенная память (ROM)",
+                        "value": "32",
+                        "nameDescription": "Встроенная память используется для хранения приложений (программ) и информации.",
+                        "valueDescription": null,
+                        "priority": 3,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852805,
+                        "name": "Оперативная память (RAM)",
+                        "value": "2",
+                        "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+                        "valueDescription": null,
+                        "priority": 4,
+                        "measure": "ГБ"
+                    },
+                    {
+                        "id": 30852972,
+                        "name": "Количество ядер",
+                        "value": "8",
+                        "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+                        "valueDescription": null,
+                        "priority": 5,
+                        "measure": null
+                    },
+                    {
+                        "id": 754,
+                        "name": "Частота процессора",
+                        "value": "4 x 2.0ГГц + 4 x 1.7ГГц",
+                        "nameDescription": "Тактовая частота процессора – количество тактов (операций), которые процессор может совершить за единицу времени. Чем больше тактовая частота, тем выше быстродействие процессора. Это один из важных параметров, влияющих на производительность.",
+                        "valueDescription": null,
+                        "priority": 6,
+                        "measure": null
+                    }
+                ]
+            },
+            {
+                "productId": "4163076",
+                "name": "Планшетный компьютер детский Rexant для рисования 12''",
+                "nameTranslit": "planshetnyi-komputer-detskii-rexant-dlya-risovaniya-12",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4163076",
+                "materialSource": "shelf",
+                "modelName": "для рисования 12''",
+                "rating": {
+                    "star": 5,
+                    "count": 1,
+                    "percent": 101
+                },
+                "supplier": {
+                    "id": "K000051628",
+                    "name": "ООО \"СДС\"",
+                    "address": "123060, Москва, Маршала Соколовского, 3",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1197746331045",
+                    "inn": "7734425377",
+                    "phone": "+74952252520"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4163076b.jpg",
+                "brandId": "125",
+                "brandName": "Rexant",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4163076.jpg",
+                    "Pdb/4163076b.jpg",
+                    "Pdb/4163076b1.jpg",
+                    "Pdb/4163076b2.jpg",
+                    "Pdb/4163076b3.jpg",
+                    "Pdb/4163076b4.jpg",
+                    "Pdb/4163076b5.jpg",
+                    "Pdb/4163076s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4163077",
+                "name": "Планшетный компьютер детский Rexant для рисования 8,5''",
+                "nameTranslit": "planshetnyi-komputer-detskii-rexant-dlya-risovaniya-85",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4163077",
+                "materialSource": "shelf",
+                "modelName": "для рисования 8,5''",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000051628",
+                    "name": "ООО \"СДС\"",
+                    "address": "123060, Москва, Маршала Соколовского, 3",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1197746331045",
+                    "inn": "7734425377",
+                    "phone": "+74952252520"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4163077b.jpg",
+                "brandId": "125",
+                "brandName": "Rexant",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4163077.jpg",
+                    "Pdb/4163077b.jpg",
+                    "Pdb/4163077b1.jpg",
+                    "Pdb/4163077b2.jpg",
+                    "Pdb/4163077b3.jpg",
+                    "Pdb/4163077b4.jpg",
+                    "Pdb/4163077s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4145078",
+                "name": "Планшет для рисования и заметок Luazon Home 5450008 (5450008)",
+                "nameTranslit": "planshet-dlya-risovaniya-i-zametok-luazon-home-5450008-5450008",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4145078",
+                "materialSource": "shelf",
+                "modelName": "5450008 (5450008)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000047263",
+                    "name": "ООО ТД \"СИМА-ЛЕНД\"",
+                    "address": "620010, г. Екатеринбург, Черняховского, 86, офис 44",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1176658004929",
+                    "inn": "6679104850",
+                    "phone": "+79029622970"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4145078b.jpg",
+                "brandId": "6845",
+                "brandName": "Luazon Home",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4145078.jpg",
+                    "Pdb/4145078b.jpg",
+                    "Pdb/4145078b1.jpg",
+                    "Pdb/4145078b2.jpg",
+                    "Pdb/4145078b3.jpg",
+                    "Pdb/4145078b4.jpg",
+                    "Pdb/4145078b5.jpg",
+                    "Pdb/4145078b6.jpg",
+                    "Pdb/4145078s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4163078",
+                "name": "Планшетный компьютер детский Rexant для рисования 8,5'' многоцветный",
+                "nameTranslit": "planshetnyi-komputer-detskii-rexant-dlya-risovaniya-85-mnogocvetnyi",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4163078",
+                "materialSource": "shelf",
+                "modelName": "для рисования 8,5'' многоцветный",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000051628",
+                    "name": "ООО \"СДС\"",
+                    "address": "123060, Москва, Маршала Соколовского, 3",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1197746331045",
+                    "inn": "7734425377",
+                    "phone": "+74952252520"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4163078b.jpg",
+                "brandId": "125",
+                "brandName": "Rexant",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4163078.jpg",
+                    "Pdb/4163078b.jpg",
+                    "Pdb/4163078b1.jpg",
+                    "Pdb/4163078b2.jpg",
+                    "Pdb/4163078b3.jpg",
+                    "Pdb/4163078b4.jpg",
+                    "Pdb/4163078s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4145079",
+                "name": "Планшет для рисования и заметок Luazon Home 5450006 (5450006)",
+                "nameTranslit": "planshet-dlya-risovaniya-i-zametok-luazon-home-5450006-5450006",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4145079",
+                "materialSource": "shelf",
+                "modelName": "5450006 (5450006)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000047263",
+                    "name": "ООО ТД \"СИМА-ЛЕНД\"",
+                    "address": "620010, г. Екатеринбург, Черняховского, 86, офис 44",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1176658004929",
+                    "inn": "6679104850",
+                    "phone": "+79029622970"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4145079b.jpg",
+                "brandId": "6845",
+                "brandName": "Luazon Home",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4145079.jpg",
+                    "Pdb/4145079b.jpg",
+                    "Pdb/4145079b1.jpg",
+                    "Pdb/4145079b2.jpg",
+                    "Pdb/4145079b3.jpg",
+                    "Pdb/4145079b4.jpg",
+                    "Pdb/4145079b5.jpg",
+                    "Pdb/4145079b6.jpg",
+                    "Pdb/4145079s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4145085",
+                "name": "Планшет для рисования и заметок Luazon Home 5450009 (5450009)",
+                "nameTranslit": "planshet-dlya-risovaniya-i-zametok-luazon-home-5450009-5450009",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4145085",
+                "materialSource": "shelf",
+                "modelName": "5450009 (5450009)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000047263",
+                    "name": "ООО ТД \"СИМА-ЛЕНД\"",
+                    "address": "620010, г. Екатеринбург, Черняховского, 86, офис 44",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1176658004929",
+                    "inn": "6679104850",
+                    "phone": "+79029622970"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4145085b.jpg",
+                "brandId": "6845",
+                "brandName": "Luazon Home",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4145085.jpg",
+                    "Pdb/4145085b.jpg",
+                    "Pdb/4145085b1.jpg",
+                    "Pdb/4145085b2.jpg",
+                    "Pdb/4145085b3.jpg",
+                    "Pdb/4145085b4.jpg",
+                    "Pdb/4145085b5.jpg",
+                    "Pdb/4145085b6.jpg",
+                    "Pdb/4145085s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4163075",
+                "name": "Планшетный компьютер детский Rexant для рисования 10''",
+                "nameTranslit": "planshetnyi-komputer-detskii-rexant-dlya-risovaniya-10",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4163075",
+                "materialSource": "shelf",
+                "modelName": "для рисования 10''",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000051628",
+                    "name": "ООО \"СДС\"",
+                    "address": "123060, Москва, Маршала Соколовского, 3",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1197746331045",
+                    "inn": "7734425377",
+                    "phone": "+74952252520"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4163075b.jpg",
+                "brandId": "125",
+                "brandName": "Rexant",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4163075.jpg",
+                    "Pdb/4163075b.jpg",
+                    "Pdb/4163075b1.jpg",
+                    "Pdb/4163075b2.jpg",
+                    "Pdb/4163075b3.jpg",
+                    "Pdb/4163075b4.jpg",
+                    "Pdb/4163075b5.jpg",
+                    "Pdb/4163075s.jpg"
+                ],
+                "propertiesPortion": []
+            },
+            {
+                "productId": "4145080",
+                "name": "Планшет для рисования и заметок Luazon Home 5450007 (5450007)",
+                "nameTranslit": "planshet-dlya-risovaniya-i-zametok-luazon-home-5450007-5450007",
+                "productType": "ZCON",
+                "usedProductType": null,
+                "materialCisNumber": "4145080",
+                "materialSource": "shelf",
+                "modelName": "5450007 (5450007)",
+                "rating": {
+                    "star": null,
+                    "count": null,
+                    "percent": null
+                },
+                "supplier": {
+                    "id": "K000047263",
+                    "name": "ООО ТД \"СИМА-ЛЕНД\"",
+                    "address": "620010, г. Екатеринбург, Черняховского, 86, офис 44",
+                    "workSchedule": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+                    "ogrn": "1176658004929",
+                    "inn": "6679104850",
+                    "phone": "+79029622970"
+                },
+                "vendorCatalog": null,
+                "sublicense": false,
+                "partnerType": null,
+                "preorder": null,
+                "isMprimeSubscription": false,
+                "image": "Pdb/small_pic/480/4145080b.jpg",
+                "brandId": "6845",
+                "brandName": "Luazon Home",
+                "status": {
+                    "showCase": false,
+                    "availableOnlyInRetailStore": false,
+                    "soldOut": false,
+                    "isCannotBeExchanged": false
+                },
+                "category": {
+                    "id": "930",
+                    "name": "Планшеты на Android"
+                },
+                "properties": null,
+                "images": [
+                    "Pdb/4145080.jpg",
+                    "Pdb/4145080b.jpg",
+                    "Pdb/4145080b1.jpg",
+                    "Pdb/4145080b2.jpg",
+                    "Pdb/4145080b3.jpg",
+                    "Pdb/4145080b4.jpg",
+                    "Pdb/4145080b5.jpg",
+                    "Pdb/4145080b6.jpg",
+                    "Pdb/4145080s.jpg"
+                ],
+                "propertiesPortion": []
+            }
+        ]
+    }
+}
