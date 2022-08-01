@@ -160,7 +160,29 @@ def get_data():
         json.dump(response, file, indent=4, ensure_ascii=False)
 
     # распечатаем длину списка
-    print(len(response.get('body').get('products')))
+    # print(len(response.get('body').get('products')))
+
+
+    # Cобираем цены скидки и бонусы на товар
+    # (с сайта м-видео prices запрос, копируем cURL(bush), на сайте
+    # https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем с params и запрос
+    # до params склеем список с Ids в строку с помощью метода join
+
+    products_ids_str = ','.join(products_ids)
+    # подставляем строку products_ids_str в params
+    params = {
+        'productIds': products_ids_str,
+        'addBonusRubles': 'true',
+        'isPromoApplied': 'true',
+    }
+
+    # отправляем запрос, в ответе получаем json
+    response = requests.get('https://www.mvideo.ru/bff/products/prices', params=params, cookies=cookies,
+                            headers=headers).json()
+
+    # сохраняем результат в файл (здесь мы получили файл с ценниками, скидками бонусами и описанием акций)
+    with open('3_prices.json', 'w') as file:
+        json.dump(response, file, indent=4, ensure_ascii=False)
 
 
 
