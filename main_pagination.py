@@ -78,93 +78,69 @@ def get_data():
         # на каждой итерации будем поплнять созданный нами ранее словарь для id
         products_ids[i] = products_ids_list
         # формируем параметры для второго запроса
+        json_data = {
+            'productIds': products_ids_list,
+            'mediaTypes': [
+                'images',
+            ],
+            'category': True,
+            'status': True,
+            'brand': True,
+            'propertyTypes': [
+                'KEY',
+            ],
+            'propertiesConfig': {
+                'propertiesPortionSize': 5,
+            },
+            'multioffer': False,
+        }
 
+        # отправляем второй запрос в ответе которого получаем данные о позициях, но в них нет прайса
+        response = s.post('https://www.mvideo.ru/bff/product-details/list', cookies=cookies, headers=headers,
+                                   json=json_data).json()
+        # наполняем словарь, ключами будут 0,1,2 и тд а значениями получаемые данные из ответа
+        products_description[i] = response
 
+        # забираем прайсы
+        products_ids_str = ','.join(products_ids_list)
 
-    # # сохраним ответ в Json
-    # with open('1_products_ids.json', 'w') as file:
-    #     json.dump(products_ids, file, indent=4, ensure_ascii=False)
-    # # print(products_ids)
-    #
-    # # Отправляем запрос и собираем IDs товаров(с сайта м-видео list запрос, копируем cURL(bush), на сайте
-    # # https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем с json_data и запрос
-    # # вместо скопированного списка из productIds вставляем нашу переменную products_ids, в ответе получаем json
-    # json_data = {
-    #     'productIds': products_ids,
-    #     'mediaTypes': [
-    #         'images',
-    #     ],
-    #     'category': True,
-    #     'status': True,
-    #     'brand': True,
-    #     'propertyTypes': [
-    #         'KEY',
-    #     ],
-    #     'propertiesConfig': {
-    #         'propertiesPortionSize': 5,
-    #     },
-    #     'multioffer': False,
-    # }
-    #
-    # # в ответе получаем json
-    # response = requests.post('https://www.mvideo.ru/bff/product-details/list', cookies=cookies, headers=headers,
-    #                          json=json_data).json()
-    #
-    # # сохраняем результат (здесь мы получили данные по первым 24 продуктам(планшетам)
-    # with open('2_items.json', 'w') as file:
-    #     json.dump(response, file, indent=4, ensure_ascii=False)
-    #
-    # # распечатаем длину списка
-    # # print(len(response.get('body').get('products')))
-    #
-    #
-    # # Cобираем цены скидки и бонусы на товар
-    # # (с сайта м-видео prices запрос, копируем cURL(bush), на сайте
-    # # https://curlconverter.com/#python конвертируем cURL запрос для Python, копируем с params и запрос
-    #
-    # # до params склеем список с Ids в строку с помощью метода join
-    # products_ids_str = ','.join(products_ids)
-    #
-    # # подставляем строку products_ids_str в params
-    # params = {
-    #     'productIds': products_ids_str,
-    #     'addBonusRubles': 'true',
-    #     'isPromoApplied': 'true',
-    # }
-    #
-    # # отправляем запрос, в ответе получаем json
-    # response = requests.get('https://www.mvideo.ru/bff/products/prices', params=params, cookies=cookies,
-    #                         headers=headers).json()
-    #
-    # # сохраняем результат в файл (здесь мы получили файл с ценниками, скидками бонусами и описанием акций)
-    # with open('3_prices.json', 'w') as file:
-    #     json.dump(response, file, indent=4, ensure_ascii=False)
-    #
-    # # создаем словарь под наши данные
-    # items_prices = {}
-    #
-    # # получаем список со словарями в котором хранятся объекты с данными
-    # material_prices = response.get('body').get('materialPrices')
-    #
-    # # пробегаемся по нему циклом
-    # for item in material_prices:
-    #     item_id = item.get('price').get('productId')
-    #     item_base_price = item.get('price').get('basePrice')
-    #     item_sale_price = item.get('price').get('salePrice')
-    #     item_bonus = item.get('bonusRubles').get('total')
-    #
-    #     # на каждой итерации записываем в словарь новую пару, ключом будет ID товара, а значением словарь с данными в
-    #     # виде базового прайса, прайса со скидкой и бонусами
-    #     items_prices[item_id] = {
-    #         'item_basePrice': item_base_price,
-    #         'item_salePrice': item_sale_price,
-    #         'item_Bonus': item_bonus
-    #     }
-    #
-    #     # после выходим из цикла и записываем данные в json
-    #     with open('4_items_prices.json', 'w') as file:
-    #         json.dump(items_prices, file, indent=4, ensure_ascii=False)
+        params = {
+            'productIds': products_ids_str,
+            'addBonusRubles': 'true',
+            'isPromoApplied': 'true',
+        }
+        # отправляем запрос, в ответе получаем json
+        response = s.get('https://www.mvideo.ru/bff/products/prices', params=params, cookies=cookies,
+                                    headers=headers).json()
+        # получаем список словарей
+        material_prices = response.get('body').get('materialPrices')
 
+    # пробегаемся по нему циклом
+        for item in material_prices:
+            item_id = item.get('price').get('productId')
+            item_base_price = item.get('price').get('basePrice')
+            item_sale_price = item.get('price').get('salePrice')
+            item_bonus = item.get('bonusRubles').get('total')
+
+            # на каждой итерации записываем в словарь новую пару, ключом будет ID товара, а значением словарь с данными в
+            # виде базового прайса, прайса со скидкой и бонусами
+            products_prices[item_id] = {
+                'item_basePrice': item_base_price,
+                'item_salePrice': item_sale_price,
+                'item_Bonus': item_bonus
+            }
+        print(f'[+] Окончено {i + 1} из {pages_count} страниц')
+
+        # после выходим из цикла и записываем данные, будет 3 словаря, 1 c id, 2 с данными о товаре, 3 c прайсами на
+        # товары
+        with open('data/1_product_ids.json', 'w') as file:
+            json.dump(products_ids, file, indent=4, ensure_ascii=False)
+
+        with open('data/2_product_description.json', 'w') as file:
+            json.dump(products_description, file, indent=4, ensure_ascii=False)
+
+        with open('data/3_product_prices.json', 'w') as file:
+            json.dump(products_prices, file, indent=4, ensure_ascii=False)
 
 
 # объединение словарей с данными выносим в отдельныую функцию
