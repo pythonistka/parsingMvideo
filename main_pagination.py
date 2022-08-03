@@ -145,39 +145,44 @@ def get_data():
 
 # объединение словарей с данными выносим в отдельныую функцию
 def get_result():
-    # читаем словарь с данными по планшетам
-    with open('2_items.json') as file:
+    # читаем данные из файлов с продуктами и прайсами в перменной
+    with open('data/2_product_description.json') as file:
         products_data = json.load(file)
 
-    # и следом словарь с прайсами
-    with open('4_items_prices.json') as file:
+    with open('data/3_product_prices.json') as file:
         products_prices = json.load(file)
 
-    # забираем из словаря с данными только данные по планшетам
-    products_data = products_data.get('body').get('products')
+    # проходим по значениям словаря с продуктами
+    for items in products_data.values():
+    # на каждой итерации мы забираем все товары на странице, которые лежат в ключе products
+    # обозначим переменную и достанем товары
+        products = items.get('body').get('products')
 
-    # пробегаемся циклом по списку словарей и первым делом получаем id продукта
-    for item in products_data:
-        product_id = item.get('productId')
+        # пробегаемся вложенныи циклом и ищем совпадения по id
+        for item in products:
+            product_id = item.get('productId')
 
-        # далее нужно найти совпадения в словаре с прайсами и если id там существует, сохраняем словарь с данными по
-        # базовой цене, цене со скидкой и бонусами
-        if product_id in products_prices:
-            prices = products_prices[product_id]
+            # далее нужно найти совпадения в словаре с прайсами и если id там существует, сохраняем словарь с данными по
+            # базовой цене, цене со скидкой и бонусами
+            if product_id in products_prices:
+                prices = products_prices[product_id]
 
-        # создаем новые пары в итоговом словаре с данными
-        item['item_basePrice'] = prices.get('item_basePrice')
-        item['item_salePrice'] = prices.get('item_salePrice')
-        item['item_Bonus'] = prices.get('item_Bonus')
+            # создаем новые пары в итоговом словаре с данными
+            item['item_basePrice'] = prices.get('item_basePrice')
+            item['item_salePrice'] = prices.get('item_salePrice')
+            item['item_Bonus'] = prices.get('item_Bonus')
+            # добавим ссылку на товар
+            item['item_link'] = f'https://www.mvideo.ru/products/{item.get("nameTranslit")}-{product_id}'
 
-    # выходим из цикла и записываем данные в json
-    with open('5_result.json', 'w') as file:
-        json.dump(products_data, file, indent=4, ensure_ascii=False)
+
+        # выходим из цикла и записываем данные в итоговый файл
+        with open('data/4_result.json', 'w') as file:
+            json.dump(products_data, file, indent=4, ensure_ascii=False)
 
 
 def main():
     get_data()
-    # get_result()
+    get_result()
 
 
 if __name__ == '__main__':
